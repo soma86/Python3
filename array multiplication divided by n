@@ -1,0 +1,19 @@
+#Python Program for Find reminder of array multiplication divided by n
+arr = [12, 10, 5, 6, 52, 36,56, 10, 201, 52, 15, 27, 35, 56, 110, 201, 58, 69, 300, 5]
+no = 51
+arr1 = [100, 10, 5, 25, 35, 14]
+n = 11
+
+l = len(arr)
+
+def sums(arr,l,no):
+    total = 1
+    for i in arr[:]:
+        total = total * i
+
+    print (total%no)
+
+
+
+sums(arr,l,no)
+sums(arr1,l,n)
