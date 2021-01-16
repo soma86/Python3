@@ -1,0 +1,15 @@
+#Python | Count the Number of matching characters in a pair of string
+
+def cnts(s1,s2):
+    cnt=0
+    sets = ''
+    for i in (s1.lower()):
+        for j in s2.lower():
+            if i == j:
+                sets=sets + ''.join(i)
+    print(len(sets),sets)
+    return
+
+str1 = 'soma'
+str2 = 'Somasree'
+cnts(str1,str2)
