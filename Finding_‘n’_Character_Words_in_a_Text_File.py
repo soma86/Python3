@@ -1,4 +1,4 @@
-#Python | Finding ‘n’ Character Words in a Text File
+#Python | Finding ‘n’ Character Words in a Text File | from gfg:
 charlen = int(input('enter length: '))
 with open('test2.txt','r') as df:
     nchars = df.readlines()
